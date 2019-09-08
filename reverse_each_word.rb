@@ -5,10 +5,9 @@ def reverse_each_word(string)
  
   new_string.collect do
   
-    new_string = new_string.reverse
-    result = new_array.join(' ')
-    return new_string
+  
   end
   
     
 end
+
