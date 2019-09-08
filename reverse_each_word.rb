@@ -4,12 +4,10 @@ def reverse_each_word(string)
   new_array = []
  
   new_string.collect do
-    i = 0 
-    i++
-    return i
+  
     new_string = new_string.reverse
     result = new_array.join(' ')
-     new_string
+    return new_string
   end
   
     
