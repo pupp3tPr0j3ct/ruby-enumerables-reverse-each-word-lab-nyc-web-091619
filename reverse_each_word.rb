@@ -8,7 +8,7 @@ def reverse_each_word(string)
     m.reverse
     
   end
-  
+  string2 = m.reverse
     
 end
 
