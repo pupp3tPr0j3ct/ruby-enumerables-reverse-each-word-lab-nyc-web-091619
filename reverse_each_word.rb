@@ -13,7 +13,7 @@ def reverse_each_word(string)
   end
   
   new_array.collect do |m|
-    
+    return new_array.join(' ')
   end
   
   
