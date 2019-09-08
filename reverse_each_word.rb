@@ -11,5 +11,5 @@ def reverse_each_word(string)
     
 end
 
-  new_string = new_string.reverse
+  #new_string = new_string.reverse
     
