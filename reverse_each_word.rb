@@ -6,9 +6,9 @@ def reverse_each_word(string)
   new_string.collect do |m|
     new_string[0] = m
     m.reverse
-    
+    string = m.reverse
   end
-  string2 = m.reverse
+    string.join(' ')
     
 end
 
