@@ -6,7 +6,7 @@ def reverse_each_word(string)
   new_string.collect do
     i = 0 
     i++
-    puts i
+    return i
     new_string = new_string.reverse
     result = new_array.join(' ')
     return new_string
