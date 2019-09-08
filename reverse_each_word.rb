@@ -9,6 +9,7 @@ def reverse_each_word(string)
   
   while i < new_string.length do
     new_string[i].reverse
+    i += 1
   end
   
   
