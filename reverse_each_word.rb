@@ -9,8 +9,13 @@ def reverse_each_word(string)
   
   while i < new_string.length do
      new_array.push(new_string[i].reverse)
-    i += 1
+     i += 1
   end
+  
+  new_array.collect do |m|
+    
+  end
+  
   return new_array.join(' ')
   
   
