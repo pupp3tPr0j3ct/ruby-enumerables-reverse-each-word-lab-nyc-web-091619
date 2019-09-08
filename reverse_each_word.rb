@@ -4,10 +4,12 @@ def reverse_each_word(string)
   new_array = []
  
   new_string.collect do
-  
+    
   
   end
   
     
 end
 
+  new_string = new_string.reverse
+    
