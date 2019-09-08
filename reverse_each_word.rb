@@ -11,11 +11,10 @@ def reverse_each_word(string)
     new_string[i].reverse
     i += 1
   end
-  
+  return new_string
   
   new_string.collect do |m|
-    new_string[0] = m
-    new_string[0].reverse
+    
     
   end
  
