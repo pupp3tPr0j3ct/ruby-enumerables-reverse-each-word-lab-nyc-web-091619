@@ -8,7 +8,7 @@ def reverse_each_word(string)
     new_string[0].reverse
     
   end
-  puts "hi"
+  return hi"
 end
 
     
