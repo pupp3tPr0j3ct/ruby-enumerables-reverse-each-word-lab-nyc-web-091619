@@ -11,7 +11,7 @@ def reverse_each_word(string)
      new_array.push(new_string[i].reverse)
     i += 1
   end
-  return new_array
+  return new_array.join(' ')
   
   
  
