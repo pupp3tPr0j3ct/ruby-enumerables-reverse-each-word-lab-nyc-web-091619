@@ -9,7 +9,7 @@ def reverse_each_word(string)
     return i
     new_string = new_string.reverse
     result = new_array.join(' ')
-    return new_string
+     new_string
   end
   
     
