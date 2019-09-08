@@ -3,10 +3,10 @@ def reverse_each_word(string)
   # "Hello there, and how are you?"  is now an array ["Hello", "there,", "and", "how", "are", "you?"]
   new_array = []
   
-  new_string.collect do |m|
+  new_string.collect do |m, n|
     new_string[0] = m
-    astring = m.reverse
-    p astring.join
+    n = m.reverse
+    return n
   end
 
 end
