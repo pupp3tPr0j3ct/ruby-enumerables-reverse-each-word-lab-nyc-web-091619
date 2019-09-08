@@ -7,7 +7,7 @@ def reverse_each_word(string)
     new_string[0] = m
     #new_string[m].reverse
     new_array.push(new_string[m].reverse)
-    
+    result = new_array
   end
   #join each reversed string
     
