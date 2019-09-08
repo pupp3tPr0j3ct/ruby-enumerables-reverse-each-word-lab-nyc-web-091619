@@ -8,15 +8,12 @@ def reverse_each_word(string)
   i = 0 
   
   while i < new_string.length do
-    new_string[i].reverse
+     new_array.push(new_string[i].reverse)
     i += 1
   end
-  return new_string
+  return new_array
   
-  new_string.collect do |m|
-    
-    
-  end
+  
  
 end
 
