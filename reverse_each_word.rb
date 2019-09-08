@@ -3,9 +3,9 @@ def reverse_each_word(string)
   # "Hello there, and how are you?"  is now an array ["Hello", "there,", "and", "how", "are", "you?"]
   new_array = []
  
-  new_string.collect do
-    
-  
+  new_string.collect do |m|
+    new_string[0] = m
+    puts m
   end
   
     
